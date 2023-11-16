@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card-body">
-                            <h6 class="card-subtitle mb-2 text-muted">Answer GPT4 Turbo</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Answer GPT4 Turbo + custom prompt </h6>
                             <p class="card-text"><p>The code you've posted is indeed somewhat redundant. It's moving values to and from the local stack space unnecessarily, and this is not the most efficient way to write this function. The use of the local variable at <code>-4(%ebp)</code> seems to be for pedagogical purposes, to demonstrate how local stack space can be used within a function. However, in practice, this is not needed for the functionality of the power function as described.</p>
 
 <p>Here's how the function could be optimized by removing the unnecessary use of stack space for the intermediate results:</p>
